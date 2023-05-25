@@ -1,0 +1,35 @@
+body{
+	background: black;
+	font-family: 'Helvetica Neue';
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.6rem;
+	color: darkcyan;
+}
+
+#root{
+	padding: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#root div{
+	text-align: center;
+}
+
+button{
+	border: solid 1px darkcyan;
+	padding: 2rem 5rem;
+	font-size: 1rem;
+	font-family: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+	background: inherit;
+}
+
+button:hover{
+	transform: scale(0.95);
+	transition: 0.2s ease transform;
+}
